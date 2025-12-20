@@ -1,2 +1,95 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Capítulo DeMolay — Estrela de Cana</title>
+  <meta name="description" content="Capítulo DeMolay Estrela de Cana — atividades, eventos e contato." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Estrela de Cana</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Abrir menu">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#membros">Membros</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Capítulo DeMolay — Estrela de Cana</h1>
+        <p class="lead">Formando líderes e cidadãos — tradição, serviço e amizade.</p>
+        <a class="btn primary" href="#contato">Fale Conosco</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="container about">
+      <h2>Sobre o Capítulo</h2>
+      <p>O Capítulo Estrela de Cana é um grupo DeMolay que promove liderança, desenvolvimento pessoal e serviço à comunidade para jovens. Nossa missão é formar cidadãos conscientes e preparados para o futuro.</p>
+      <ul class="highlights">
+        <li>Reuniões semanais</li>
+        <li>Projetos comunitários</li>
+        <li>Eventos de formação e confraternização</li>
+      </ul>
+    </section>
+
+    <section id="eventos" class="container events">
+      <h2>Próximos Eventos</h2>
+      <div class="event-list">
+        <article class="event">
+          <h3>Reunião Mensal</h3>
+          <p><strong>Data:</strong> 2026-01-10 — <strong>Local:</strong> Sede do Capítulo</p>
+          <p>Reunião ordinária com pauta, formação e atividades.</p>
+        </article>
+
+        <article class="event">
+          <h3>Projeto Comunitário: Mutirão</h3>
+          <p><strong>Data:</strong> 2026-02-15 — <strong>Local:</strong> Praça Central</p>
+          <p>Atuação em mutirão de limpeza e revitalização, aberto à comunidade.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="membros" class="container members">
+      <h2>Membros</h2>
+      <p>O capítulo acolhe jovens entre X e Y anos. Entre em contato para saber como participar ou visitar uma reunião.</p>
+    </section>
+
+    <section id="contato" class="container contact">
+      <h2>Contato</h2>
+      <p>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+      <p>Telefone/WhatsApp: <a href="tel:+5511999999999">+55 (11) 99999-9999</a></p>
+      <form id="contactForm" action="#" onsubmit="handleContact(event)">
+        <label>
+          Nome
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Mensagem
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Capítulo Estrela de Cana — DeMolay. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
