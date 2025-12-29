@@ -1,58 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Capítulo Estrela de Canaã</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b1c2d;
-      color: #fff;
-      text-align: center;
-    }
-    header {
-      background: #132f4c;
-      padding: 40px 20px;
-    }
-    header h1 {
-      margin: 0;
-      color: #fbc02d;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    footer {
-      background: #091624;
-      padding: 20px;
-      font-size: 14px;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Capítulo DeMolay Estrela de Canaã</title>
+  <meta name="description" content="Capítulo DeMolay Estrela de Canaã — tradição, serviço e fraternidade." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="logo.svg" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="logo.svg" alt="Estrela de Canaã" class="logo" />
+        <span>Estrela de Canaã</span>
+      </a>
+      <nav class="nav">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+        <a href="#junte-se" class="cta">Junte‑se</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menu" id="navToggle">☰</button>
+    </div>
+  </header>
 
-<header>
-  <h1>Capítulo Estrela de Canaã</h1>
-  <p>Ordem DeMolay</p>
-</header>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>Capítulo DeMolay <span>Estrela de Canaã</span></h1>
+        <p>Formando cidadãos de caráter, cultivando amizade, serviço e liderança.</p>
+        <div class="hero-actions">
+          <a href="#junte-se" class="btn primary">Junte‑se a nós</a>
+          <a href="#eventos" class="btn">Próximos eventos</a>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <h2>Quem Somos</h2>
-  <p>
-    O Capítulo Estrela de Canaã atua na formação de jovens líderes,
-    promovendo valores morais, cívicos e fraternais.
-  </p>
-</section>
+    <section id="sobre" class="section about">
+      <div class="container">
+        <h2>Sobre o Capítulo</h2>
+        <p>O Capítulo DeMolay Estrela de Canaã atua desde [ANO] promovendo valores de fraternidade, serviço à comunidade e desenvolvimento de liderança entre jovens. Realizamos reuniões semanais, atividades sociais, ações de caridade e programas de formação.</p>
 
-<section>
-  <h2>Contato</h2>
-  <p>Email: contato@seudominio.com</p>
-</section>
+        <div class="values">
+          <article>
+            <h3>Missão</h3>
+            <p>Incentivar jovens a se tornarem cidadãos melhores através de princípios éticos e serviços à comunidade.</p>
+          </article>
+          <article>
+            <h3>Reuniões</h3>
+            <p>Encontros às [DIA] às [HORA] — Local: [ENDEREÇO]. Todos os jovens entre [IDADE_MIN] e [IDADE_MAX] são bem-vindos.</p>
+          </article>
+          <article>
+            <h3>Contato</h3>
+            <p>Email: <a href="mailto:capitulo@exemplo.com">capitulo@exemplo.com</a><br/>Telefone/WhatsApp: (XX) XXXXX‑XXXX</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  © 2025 — Capítulo Estrela de Canaã
-</footer>
+    <section id="eventos" class="section events">
+      <div class="container">
+        <h2>Próximos Eventos</h2>
+        <div class="event-list" id="eventList">
+          <!-- Eventos de exemplo; substitua pelo conteúdo real -->
+          <article class="event-card">
+            <h3>Reunião Semanal</h3>
+            <time datetime="2026-01-10">10 de Janeiro de 2026</time>
+            <p>Reunião do Capítulo com atividades de formação e planejamento.</p>
+          </article>
+          <article class="event-card">
+            <h3>Ação Comunitária</h3>
+            <time datetime="2026-01-25">25 de Janeiro de 2026</time>
+            <p>Campanha de arrecadação e distribuição de alimentos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section id="galeria" class="section gallery">
+      <div class="container">
+        <h2>Galeria</h2>
+        <p>Fotos e memórias do Capítulo.</p>
+        <div class="grid">
+          <div class="photo"> <img src="images/photo1.jpg" alt="Foto 1 (substitua)" /> </div>
+          <div class="photo"> <img src="images/photo2.jpg" alt="Foto 2 (substitua)" /> </div>
+          <div class="photo"> <img src="images/photo3.jpg" alt="Foto 3 (substitua)" /> </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="junte-se" class="section join">
+      <div class="container">
+        <h2>Quer fazer parte?</h2>
+        <p>Se você tem interesse em participar do Capítulo Estrela de Canaã, preencha o formulário de contato abaixo ou compareça a uma reunião.</p>
+        <a href="#contato" class="btn primary">Entrar em contato</a>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <form id="contactForm">
+          <div class="form-grid">
+            <label>
+              Nome
+              <input type="text" name="name" id="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" id="email" required />
+            </label>
+            <label class="full">
+              Mensagem
+              <textarea name="message" id="message" rows="5" required></textarea>
+            </label>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Enviar mensagem</button>
+            <button type="button" class="btn" id="mailtoBtn">Enviar por email</button>
+          </div>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Capítulo DeMolay Estrela de Canaã</strong>
+        <p>Endereço: [ENDEREÇO] — Reuniões: [DIA] às [HORA]</p>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span id="year"></span> Capítulo Estrela de Canaã — Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
